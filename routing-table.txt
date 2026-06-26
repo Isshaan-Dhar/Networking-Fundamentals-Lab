@@ -1,0 +1,5 @@
+ishaan@vm-a:~$ ip route show
+default via 10.0.3.2 dev enp0s8 proto dhcp metric 101 
+10.0.3.0/24 dev enp0s8 proto kernel scope link src 10.0.3.15 metric 101 
+169.254.0.0/16 dev enp0s3 scope link metric 1000 
+192.168.10.0/24 dev enp0s3 proto kernel scope link src 192.168.10.1 metric 100
